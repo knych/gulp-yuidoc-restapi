@@ -1,6 +1,6 @@
 {
   "name": "gulp-yuidoc-restapi",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "A yuidoc plugin with custom REST API tags support for Gulp",
   "keywords": [
     "gulpplugin",
