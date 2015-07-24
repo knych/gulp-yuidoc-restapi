@@ -1,7 +1,7 @@
 {
-  "name": "gulp-yuidoc",
+  "name": "gulp-yuidoc-restapi",
   "version": "0.1.2",
-  "description": "A yuidoc plugin for Gulp",
+  "description": "A yuidoc plugin with custom REST API tags support for Gulp",
   "keywords": [
     "gulpplugin",
     "yuidoc",
@@ -9,22 +9,22 @@
     "javascript",
     "gulp"
   ],
-  "homepage": "https://github.com/jsBoot/gulp-yuidoc",
-  "bugs": {
-    "url": "https://github.com/jsBoot/gulp-yuidoc/issues",
-    "email": "dev@webitup.fr"
-  },
+  "homepage": "https://github.com/knych/gulp-yuidoc-restapi.git",
   "license": "MIT",
   "author": {
     "name": "Mangled Deutz",
     "email": "olivier@webitup.fr",
     "url": "https://github.com/dmp42"
   },
-  "contributors": [],
+  "contributors": [{
+    "name": "Chen Shou-Yuan",
+    "email": "knych.csy@gmail.com",
+    "url": "https://github.com/knych"
+  }],
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsBoot/gulp-yuidoc.git"
+    "url": "git://github.com/knych/gulp-yuidoc-restapi.git"
   },
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
